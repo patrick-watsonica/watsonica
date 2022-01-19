@@ -507,7 +507,7 @@ nav {
 	background: black;
 	grid-column: 2/3;
 	grid-row: 2/3;
-	padding: 0 3vw;
+	/* padding: 0 0.5vw; */
 }
 
 .section1-layout > a {
