@@ -341,9 +341,9 @@ p,
 .primary-navigation {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: repeat(5, 8vh);
+	grid-template-rows: repeat(5, 4vh);
 	background: black;
-	/* gap: 1vh; */
+	gap: 3vh;
 	inset: 0 0 0 50%;
 	list-style: none;
 	padding: 15vh 3rem;
