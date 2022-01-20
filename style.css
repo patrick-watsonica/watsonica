@@ -343,7 +343,7 @@ p,
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(5, 8vh);
 	background: black;
-	gap: 3vh;
+	/* gap: 1vh; */
 	inset: 0 0 0 50%;
 	list-style: none;
 	padding: 15vh 3rem;
@@ -389,9 +389,11 @@ nav {
 	cursor: pointer;
 }
 
-.nav-item:hover,
-.nav-item:focus {
-	border-color: hsl(var(--clr-white) / 0.5);
+.nav-item > a:hover,
+.nav-item > a:focus {
+	background-color: var(--clr-light);
+	border-radius: 5px;
+	color: black;
 }
 
 .primary-navigation .active,
@@ -446,6 +448,17 @@ nav {
 
 	.primary-navigation > *:first-child {
 		grid-column: 2;
+	}
+
+	.nav-item > a {
+		color: var(--clr-light);
+		padding: 0 1vw 0;
+	}
+
+	.nav-item > a:hover,
+	.nav-item > a:focus {
+		background-color: var(--clr-light);
+		color: black;
 	}
 
 	.mobile-nav-toggle {
