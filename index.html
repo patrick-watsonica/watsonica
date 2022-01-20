@@ -18,102 +18,232 @@
 	<body>
 		<div class="home">
 			<a class="skip-to-content" href="#main">skip to content</a>
-			<header class="primary-header section-wrap">
-				<div class="primary-header-layout">
-					<button
-						class="mobile-nav-toggle"
-						aria-controls="primary-navigation"
-						aria-expanded="false"
-					>
-						<span class="sr-only">Menu</span>
-					</button>
-					<p class="name-logo-01 uppercase">
-						patrick<span class="watson text-light"> watson</span>
-					</p>
-
-					<nav>
-						<ul
-							id="primary-navigation"
-							data-visible="false"
-							class="primary-navigation"
-						>
-							<li class="active nav-item fs-nav nav-item1">
-								<a class="text-white letter-space-2 uppercase" href="#">home</a>
-							</li>
-							<li class="nav-item fs-nav">
-								<a class="text-white letter-space-2 uppercase" href="#">Two</a>
-							</li>
-							<li class="nav-item fs-nav">
-								<a class="text-white letter-space-2 uppercase" href=".#"
-									>Three</a
+			<button
+					class="mobile-nav-toggle"
+					aria-controls="primary-navigation"
+					aria-expanded="false"
+				>
+					<span class="sr-only">Menu</span>
+				</button>
+			<div class="hero-page">
+				<div class="split-space-light"></div>
+					<header class="header-wrap section-wrap">
+						<div class="main-header">
+							<p class="name-logo-01 fs-nav uppercase text-light">watsonica</p>
+							<nav>
+								<ul
+									id="primary-navigation"
+									data-visible="false"
+									class="primary-navigation"
 								>
-							</li>
-							<li class="nav-item fs-nav">
-								<a class="text-white letter-space-2 uppercase" href="#">Four</a>
-							</li>
-							<li class="nav-item fs-nav">
-								<a class="text-white letter-space-2 uppercase" href="#">Five</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</header>
-			<main id="main">
-				<section class="section1 section-wrap">
-					<div class="section1-layout top-9">
-						<div class="img-wrap-01 bg-white">
-							<img
-								class="city"
-								src="images/profile-pics-2x4.png"
-								alt="8 different images of Patrick Watson"
-							/>
+									<li class="active nav-item fs-nav nav-item1">
+										<a class="text-white letter-space-2 uppercase" href="#"
+											>WebDev</a
+										>
+									</li>
+									<li class="nav-item fs-nav">
+										<a class="text-white letter-space-2 uppercase" href=".#"
+											>Artwork</a
+										>
+									</li>
+									<li class="nav-item fs-nav">
+										<a class="text-white letter-space-2 uppercase" href="#"
+											>Music</a
+										>
+									</li>
+									<li class="nav-item fs-nav">
+										<a class="text-white letter-space-2 uppercase" href="#"
+											>Photography</a
+										>
+									</li>
+								</ul>
+							</nav>
 						</div>
-						<div class="bold-name">
-							<h1 class="patrick fs-8 text-black uppercase">Patrick</h1>
-							<p class="watson fs-8 text-light uppercase">Watson</p>
+					</header>
+				</div>
+				<section>
+					<div class="hero-content section-wrap">
+						<div class="hero-content-wrap">
+							<div class="bold-name top-3">
+								<h1 class="patrick fs-8 text-black uppercase">Patrick</h1>
+								<p class="watson fs-8 text-light uppercase">Watson</p>
+							</div>
+							<div class="profile-pics-wrap bg-white">
+								<img
+									class="profile-pics"
+									src="images/profile-pics-2x4.png"
+									alt="8 different images of Patrick Watson"
+								/>
+							</div>
+							<div class="jobs-card-wrap bot-3">
+								<img src="images/jobs-card.png" alt="" class="jobs-card">
+							</div>
 						</div>
 					</div>
 				</section>
+			</div>
+			<main id="main">
+				<div class="split-space-white top-3"></div>
+				<div class="gallery-title-wrap">
+					<h2 class="gallery-title bg-black text-light">Web Development Projects</h2>
+				</div>
 				<section class="section2 section-wrap bg-white">
-					<div class="section2-layout top-9">
-						<div class="img-gallery-wrap">
+					<div class="section2-layout top-3">
+						<div class="img-gallery-wrap-left">
+							<div class="gal-info-left">
+								<h5>Anna Watson Glass</h5>
+								<p class="fs-1 bot-1">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Minus optio obcaecati, dolore hic ea facere consequatur vel
+									dolorem quae dicta ducimus a repudiandae repellendus
+									provident?
+								</p>
+							</div>
 							<img
-								class="city"
-								src="images/anna-watson-glass-desktop.png"
+								class="gal-img-left"
+								src="images/anna-watson-glass-2-up.png"
 								alt=""
 							/>
 						</div>
-						<div class="img-gallery-wrap top-6">
+						<div class="img-gallery-wrap-right top-6">
+							<div class="gal-info-right">
+								<h5>Aretha Franklin Soundboard</h5>
+								<p class="fs-1 bot-1">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Minus optio obcaecati, dolore hic ea facere consequatur vel
+									dolorem quae dicta ducimus a repudiandae repellendus
+									provident?
+								</p>
+							</div>
 							<img
-								class="city"
-								src="images/aretha-franklin-desktop.png"
+								class="gal-img-right"
+								src="images/aretha-franklin-2-up.png"
 								alt=""
 							/>
 						</div>
-						<div class="img-gallery-wrap top-6">
+						<div class="img-gallery-wrap-left top-6">
+							<div class="gal-info-left">
+								<h5>Lucent Media</h5>
+								<p class="fs-1 bot-1">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Minus optio obcaecati, dolore hic ea facere consequatur vel
+									dolorem quae dicta ducimus a repudiandae repellendus
+									provident?
+								</p>
+							</div>
 							<img
-								class="city"
-								src="images/lucent-media-desktop-02.png"
+								class="gal-img-left"
+								src="images/lucent-media-2-up.png"
 								alt=""
 							/>
 						</div>
-						<div class="img-gallery-wrap top-6">
-							<img class="city" src="images/space-desktop.png" alt="" />
+						<div class="img-gallery-wrap-right top-6">
+							<div class="gal-info-right">
+								<h5>Jim's Gym</h5>
+								<p class="fs-1 bot-1">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Minus optio obcaecati, dolore hic ea facere consequatur vel
+									dolorem quae dicta ducimus a repudiandae repellendus
+									provident?
+								</p>
+							</div>
+							<img
+								class="gal-img-right"
+								src="images/jims-gym-2-up.png"
+								alt=""
+							/>
 						</div>
-						<div class="img-gallery-wrap top-6">
-							<img class="city" src="images/bath-spa-desktop.png" alt="" />
+						<div class="img-gallery-wrap-left top-6">
+							<div class="gal-info-left">
+								<h5>Space Explorer</h5>
+								<p class="fs-1 bot-1">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Minus optio obcaecati, dolore hic ea facere consequatur vel
+									dolorem quae dicta ducimus a repudiandae repellendus
+									provident?
+								</p>
+							</div>
+							<img
+								class="gal-img-left"
+								src="images/space-explorer-2-up.png"
+								alt=""
+							/>
 						</div>
-						<div class="img-gallery-wrap top-6">
-							<img class="city" src="images/schwopp-match-4-up.png" alt="" />
+						<div class="img-gallery-wrap-right top-6">
+							<div class="gal-info-right">
+								<h5>Bath Spa Bootcamp</h5>
+								<p class="fs-1 bot-1">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Minus optio obcaecati, dolore hic ea facere consequatur vel
+									dolorem quae dicta ducimus a repudiandae repellendus
+									provident?
+								</p>
+							</div>
+							<img
+								class="gal-img-right"
+								src="images/bath-spa-bootcamp-2-up.png"
+								alt=""
+							/>
 						</div>
-						<div class="img-gallery-wrap top-6">
-							<img class="city" src="images/cars-desktop.png" alt="" />
+						<div class="img-gallery-wrap-left top-6">
+							<div class="gal-info-left">
+								<h5>Schwop Match</h5>
+								<p class="fs-1 bot-1">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Minus optio obcaecati, dolore hic ea facere consequatur vel
+									dolorem quae dicta ducimus a repudiandae repellendus
+									provident?
+								</p>
+							</div>
+							<img
+								class="gal-img-left"
+								src="images/schwopp-match-4-up.png"
+								alt=""
+							/>
 						</div>
-						<div class="img-gallery-wrap top-6">
-							<img class="city" src="images/data-x-desktop.png" alt="" />
+						<div class="img-gallery-wrap-right top-6">
+							<div class="gal-info-right">
+								<h5>Super Car Animation</h5>
+								<p class="fs-1 bot-1">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Minus optio obcaecati, dolore hic ea facere consequatur vel
+									dolorem quae dicta ducimus a repudiandae repellendus
+									provident?
+								</p>
+							</div>
+							<img
+								class="gal-img-right"
+								src="images/car-animation-2-up.png"
+								alt=""
+							/>
 						</div>
-						<div class="img-gallery-wrap top-6">
-							<img class="city" src="images/counting-121-03.png" alt="" />
+						<div class="img-gallery-wrap-left top-6">
+							<div class="gal-info-left">
+								<h5>Data X Net Zero</h5>
+								<p class="fs-1 bot-1">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Minus optio obcaecati, dolore hic ea facere consequatur vel
+									dolorem quae dicta ducimus a repudiandae repellendus
+									provident?
+								</p>
+							</div>
+							<img class="gal-img-left" src="images/data-x-2-up.png" alt="" />
+						</div>
+						<div class="img-gallery-wrap-right top-6">
+							<div class="gal-info-right">
+								<h5>Counting 121</h5>
+								<p class="fs-1 bot-1">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+									Minus optio obcaecati, dolore hic ea facere consequatur vel
+									dolorem quae dicta ducimus a repudiandae repellendus
+									provident?
+								</p>
+							</div>
+							<img
+								class="gal-img-right"
+								src="images/counting-121-2-up.png"
+								alt=""
+							/>
 						</div>
 					</div>
 				</section>
